@@ -1,3 +1,5 @@
+package Avaliacao1_PAA;
+
 import java.util.Scanner;
 
 public class Uri_1166 {

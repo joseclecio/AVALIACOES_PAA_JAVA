@@ -1,3 +1,5 @@
+package Avaliacao1_PAA;
+
 import java.util.Scanner;
 
 import java.io.IOException;

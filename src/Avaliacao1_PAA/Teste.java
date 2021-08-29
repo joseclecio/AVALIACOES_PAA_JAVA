@@ -1,3 +1,4 @@
+package Avaliacao1_PAA;
 
 public class Teste {
     public void funcao(int A, int B) {

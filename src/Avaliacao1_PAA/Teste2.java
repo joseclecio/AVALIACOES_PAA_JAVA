@@ -1,3 +1,5 @@
+package Avaliacao1_PAA;
+
 public class Teste2 {
     public static void main(String[] args) {
         int[][] M = new int[100][4]; //materiz declarada
