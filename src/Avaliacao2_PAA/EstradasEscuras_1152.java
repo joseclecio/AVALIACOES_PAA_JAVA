@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class EstradasEscuras { // uri 1152 - Árvore geradora mínima (Algoritmo de Kruskal)
+public class EstradasEscuras_1152 { // uri 1152 - Árvore geradora mínima (Algoritmo de Kruskal)
 
     static int n, m;
     static ArrayList<Aresta> listaDeArestas;

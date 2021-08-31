@@ -10,14 +10,15 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class ReservaNoHotel { //uri 1640 - Busca de menor Caminho (Algoritmo de dijkstra)
+public class ReservandoHotel_1640 { //uri 1640 - Busca de menor Caminho (Algoritmo de dijkstra)
 
-    static final int INF = (int) 1e9;
+    static final int INF = (int) 1e9;//modulo de 10 iniciado na variavel inteira estatica INF
 
+    //algoritmo de dijkstra como método estatico
     static int dijkstra(ArrayList<Aresta>[] listaAdjacente, boolean[] hotel, int V, int T) {
 
         //utilização de uma matriz de adjacencia
-        int[][] distancia = new int[601][V];
+        int[][] distancia = new int[601][V];//iniciação da matriz com 601 valores e juntamente com o vertice
 
         for (int i = 0; i <= 600; ++i)
             Arrays.fill(distancia[i], INF);
@@ -47,6 +48,7 @@ public class ReservaNoHotel { //uri 1640 - Busca de menor Caminho (Algoritmo de 
         return -1;
     }
 
+    //metodo main contendo um while para executar um loop e  fazer a resolução a partir da lista adjacente
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
